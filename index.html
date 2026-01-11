@@ -1,14 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Growth Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1>Influencer Growth Game</h1>
+    </header>
+    <main>
+        <div id="stats-container">
+            <stat-display name="Followers" value="0"></stat-display>
+            <stat-display name="Money" value="100"></stat-display>
+            <stat-display name="Energy" value="100"></stat-display>
+        </div>
+        <div id="actions-container">
+            <action-button action="post">Post Content</action-button>
+            <action-button action="collaborate">Collaborate</action-button>
+            <action-button action="rest">Rest</action-button>
+        </div>
+        <div id="log-container">
+            <h2>Log</h2>
+            <div id="log"></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
