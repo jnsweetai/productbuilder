@@ -25,7 +25,7 @@ This document outlines the design and implementation of a simple web-based game 
 
 ## Current Plan
 
-### Phase 1: Initial Setup (current)
+### Phase 1: Initial Setup (Completed)
 
 1.  **Create `blueprint.md`**: Establish the project blueprint.
 2.  **Modify `index.html`**:
@@ -39,3 +39,19 @@ This document outlines the design and implementation of a simple web-based game 
     *   Implement the core game loop.
     *   Define the player actions and their effects on the game state.
     *   Use Web Components to create reusable UI elements for stats and actions.
+
+### Phase 2: Economy & Events (Current)
+
+1.  **Implement Brand Deals (Completed)**:
+    *   Add a "Brand Deal" action.
+    *   Unlock condition: Requires a certain number of followers.
+    *   Effect: Earns Money, consumes Energy.
+2.  **Implement Random Events (Completed)**:
+    *   Create a system where random events can trigger after an action.
+    *   Events can be positive (viral post, gift) or negative (cancel culture, equipment break).
+3.  **Implement Shop/Upgrades**:
+    *   Allow players to spend Money to upgrade equipment (e.g., "Better Camera").
+    *   Effect: "Post Content" gains more followers.
+4.  **UI Updates**:
+    *   Add generic feedback for unlocked actions.
+    *   Improve log readability (maybe color-coded messages).
