@@ -73,7 +73,7 @@ main {
     max-width: 800px;
 }
 
-#stats-container, #actions-container, #log-container {
+#log-container, #partnership-container {
     background-color: var(--white);
     border-radius: 8px;
     padding: 20px;
@@ -104,6 +104,58 @@ main {
     border: 1px solid var(--border-color);
     padding: 10px;
     border-radius: 4px;
+}
+
+#partnership-container h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: inherit;
+}
+
+.form-group textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.submit-btn:hover {
+    filter: brightness(1.1);
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
 }
 
 stat-display, action-button {
