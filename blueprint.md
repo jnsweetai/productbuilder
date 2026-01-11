@@ -55,7 +55,7 @@ This document outlines the design and implementation of a simple web-based game 
 4.  **UI Updates**:
     *   Add generic feedback for unlocked actions.
     *   Improve log readability (maybe color-coded messages).
-5.  **Implement Partnership Form (Completed)**:
-    *   Add a contact form for brand partnerships.
-    *   Use Formspree for handling submissions (endpoint: https://formspree.io/f/xqeezjnj).
-    *   Style the form to match the game's modern aesthetic.
+6.  **Implement Disqus Comments (Completed)**:
+    *   Add a comments section using Disqus.
+    *   Allow users to leave feedback or chat.
+    *   *Note: Requires a Disqus shortname to function correctly.*

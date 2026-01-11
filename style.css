@@ -73,13 +73,18 @@ main {
     max-width: 800px;
 }
 
-#log-container, #partnership-container {
+#log-container, #partnership-container, #comments-container {
     background-color: var(--white);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: var(--card-shadow);
     transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#comments-container h2 {
+    margin-top: 0;
+    color: var(--primary-color);
 }
 
 #stats-container {
